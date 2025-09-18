@@ -8,8 +8,7 @@ URL for Task 3
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_03_WDD
 URL for Task 4
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_04_WDD
-URL for Task 5
-https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_05_WDD
-URL for Task 6
-https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_06_WDD
+URL for Task 5 Part 1 
+https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_05_WDD/2022-SE-02_Lab_Task_05_Part_1_WDD
+
 
