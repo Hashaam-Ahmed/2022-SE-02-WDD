@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+     <style>
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+</style>
+</head>
+<body>
+    <header class="bg-success text-white bg-opacity-75 text-center py-3">
+  <p class="mb-0">Get UPTO 40% OFF on your 1st order <a href="#" class="text-white"><b>More details</b></a></p>
+</header>
+ <header class="bg-dark text-white text-center py-2">
+ <div class="dropdown d-inline-block">
+    <a class="text-white text-decoration-none dropdown-toggle" href="#" role="button" id="down">
+      English
+    </a>
+    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="down">
+      <li><a class="dropdown-item" href="#">English</a></li>
+      <li><a class="dropdown-item" href="#">Arabic</a></li>
+    </ul>
+  </div>
+ <div class="dropdown d-inline-block">
+    <a class="text-white text-decoration-none dropdown-toggle" href="#" role="button" id="down">
+      USD
+    </a>
+    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="down">
+      <li><a class="dropdown-item" href="#">$ USD</a></li>
+      <li><a class="dropdown-item" href="#">€ EUR</a></li>
+    </ul>
+    </div>
+</header>
+
+<span class="container">
+  
+  <span class="input-group shadow">
+    <p class="text-left ps-5 pe-5 fs-1">Katora.</p>
+    <!-- Category Dropdown -->
+    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      All Categories
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">All Categories</a></li>
+      <li><a class="dropdown-item" href="#">Rings</a></li>
+      <li><a class="dropdown-item" href="#">Earnings</a></li>
+      <li><a class="dropdown-item" href="#">Crowns</a></li>
+      <li><a class="dropdown-item" href="#">Neclace</a></li>
+      <li><a class="dropdown-item" href="#">Braclet</a></li>
+    </ul>
+  
+  <div class="row">
+    <input type="text" class="form-control col-6" style="width: 280px;" placeholder="Search Products...">
+  </div>
+
+   <a href="#" class="btn d-flex align-items-center justify-content-center" 
+   style="background-color:#b8860b; color:white; width:60px; height:60px;">
+  <i class="fas fa-search"></i>
+</a>
+  </span>
+</span><br>
+<div class="container text-center">
+        
+        <div class="dropdown dropdown-hover d-inline-block">
+            <button class="btn dropdown-toggle" type="button">
+                HOME
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                <li><a class="dropdown-item" href="#">Home 2</a></li>
+                <li><a class="dropdown-item" href="#">Home 3</a></li>
+                <li><a class="dropdown-item" href="#">Home 4</a></li>
+            </ul>
+        </div>
+       
+        <div class="dropdown dropdown-hover d-inline-block">
+            <button class="btn dropdown-toggle" type="button">
+                 MEGA MENU
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><b>Categories</b></a></li>
+                <li><a class="dropdown-item" href="#"><b>Departments</b></a></li>
+                <li><a class="dropdown-item" href="#"><b>Shop Instagram</b></a></li>
+            </ul>
+        </div>
+         <div class="dropdown dropdown-hover d-inline-block">
+            <button class="btn dropdown-toggle" type="button">
+                 SHOP
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Top Bar</a></li>
+                <li><a class="dropdown-item" href="#">Right Sidebar</a></li>
+                <li><a class="dropdown-item" href="#">Top and Right Sidenar</a></li>
+            </ul>
+        </div>
+         <div class="dropdown dropdown-hover d-inline-block">
+            <button class="btn dropdown-toggle" type="button">
+                 PRODUCT
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Left Carousel</a></li>
+                <li><a class="dropdown-item" href="#">Right Carousel</a></li>
+                <li><a class="dropdown-item" href="#">Vertical thumbnail Carousel</a></li>
+            </ul>
+        </div>
+         <div class="dropdown dropdown-hover d-inline-block">
+            <button class="btn dropdown-toggle" type="button">
+                Pages
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">404 Page</a></li>
+                <li><a class="dropdown-item" href="#">About Us</a></li>
+                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        
+    </div>
+  <br>
+  <br>
+ <div class="container my-5">
+        <h1 class="text-center mb-4">Shop Page</h1>
+ <div class="filter-section">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <div class="filter-label">Category</div>
+                    <select class="form-select">
+                        <option>All Categories</option>
+                        <option selected>Necklace</option>
+                        <option>Earrings</option>
+                        <option>Rings</option>
+                        <option>Bracelets</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="filter-label">Price</div>
+                    <select class="form-select">
+                        <option>All Prices</option>
+                        <option selected>$100 - $1200</option>
+                        <option>$0 - $100</option>
+                        <option>$100 - $300</option>
+                        <option>$300 - $600</option>
+                        <option>$600+</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="filter-label">Size</div>
+                    <select class="form-select">
+                        <option>All Sizes</option>
+                        <option selected>Medium</option>
+                        <option>Small</option>
+                        <option>Large</option>
+                    </select>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <div class="filter-label">Sort by</div>
+                    <select class="form-select">
+                        <option selected>Regular</option>
+                        <option>Price: Low to High</option>
+                        <option>Price: High to Low</option>
+                        <option>Newest</option>
+                        <option>Popular</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+<br>
+  <d class="row">
+            <!-- Product 1 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/img1.png" class="img-fluid"style="width:210px; height:250px; object-fit:cover;"">
+                    </div>
+                    <div class="p-3">
+                        <div class="product-brand">BING COLLECTION</div>
+                        <h5 class="product-title">Austrian Crystals Wedding Jewelry Ring</h5>
+                        <div class="product-price">$285</div>
+                        <button class="btn btn-outline-primary w-100 mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="product-card">
+                    <div class="product-image">
+                       <img src="images/img2.png" class="img-fluid" style="width:210px; height:250px; object-fit:cover;"">
+                    </div>
+                    <div class="p-3">
+                        <div class="product-brand">EASBNICS</div>
+                        <h5 class="product-title">Crystal Water Drop Wedding Function Earrings</h5>
+                        <div class="product-price">
+                            <span class="original-price">$460</span> $285
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="product-card">
+                    <div class="product-image">
+                       <img src="images/img3.png" class="img-fluid" style="width:210px; height:250px; object-fit:cover;">
+                    </div>
+                    <div class="p-3">
+                        <div class="product-brand">BING COLLECTION</div>
+                        <h5 class="product-title">Crystal Wedding And Engagement Function Rings</h5>
+                        <div class="product-price">
+                            <span class="original-price">$180</span> $85
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="product-card">
+                    <div class="product-image">
+                       <img src="images/img4.png" class="img-fluid" style="width:210px; height:250px; object-fit:cover;">
+                    </div>
+                    <div class="p-3">
+                        <div class="product-brand">BINGS</div>
+                        <h5 class="product-title">Women Wedding Zircon Engagement Ring</h5>
+                        <div class="product-price">$110</div>
+                        <button class="btn btn-outline-primary w-100 mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 5 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="product-card">
+                    <div class="product-image">
+                       <img src="images/img5.png" class="img-fluid" style="width:210px; height:250px; object-fit:cover;">
+                    </div>
+                    <div class="p-3">
+                        <div class="product-brand">BASICLE</div>
+                        <h5 class="product-title">Viennois Rose Gold Circle Bangle for Wedding</h5>
+                        <div class="product-price">
+                            <span class="original-price">$280</span> $185
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 6 -->
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                <div class="product-card">
+                    <div class="product-image">
+                      <img src="images/img6.png" class="img-fluid" style="width:210px; height:250px; object-fit:cover;">
+                    </div>
+                    <div class="p-3">
+                        <div class="product-brand">BRACELET</div>
+                        <h5 class="product-title">Bracelet Women Metal Chain for Engagement</h5>
+                        <div class="product-price">
+                            <span class="original-price">$140</span> $81
+                        </div>
+                        <button class="btn btn-outline-primary w-100 mt-2">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        <br>
+        <div class="container">
+        <div class="newsletter-container">
+            <div class="newsletter-header">
+                
+                <h4 fw-bold>SIGN UP FOR NEWSLETTER & GET ALL <br>UPDATES</h4>
+                <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut <br>labore et.</p>
+            </div>
+            <br>
+
+            <div class="newsletter-form d-flex justify-content-center">
+                <form>
+                    <div class="input-group mb-3" style="width: 400px;">
+    <input type="email" class="form-control" placeholder="Your Email ...">
+    <button class="btn btn-subscribe bg-success text-white" type="submit">SUBSCRIBE</button>
+</div>
+                </form>
+            </div>
+        </div>
+        </div>
+        <br>
+      <footer class="bg-dark text-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <h5 class="fw-bold mb-3">Store</h5>
+                <h4 class="fw-bold text-white mb-3">Katora.</h4>
+                <p class="text-white fw-light">
+                    1223, Main Street, <br>
+                    New York, 38000 USA
+                </p>
+                <p class="text-white fw-light">
+                    888 - 963 - 600<br>
+                    info@example.com
+                </p>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <h5 class="fw-bold mb-3 ms-4">Info</h5>
+                <ul class="list-unstyled ms-4">
+                    <li><a href="#" class="text-white text-decoration-none">Home</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Blog</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">About Us</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 ps-0">
+                <h5 class="fw-bold mb-3">Our Policies</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">FAQs</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Refund Policy</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4 ps-0">
+                <h5 class="fw-bold mb-3">My Account</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white text-decoration-none">Shop</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Orders</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Shopping Cart</a></li><br>
+                    <li><a href="#" class="text-white text-decoration-none">Wishlist</a></li>
+                </ul>
+            </div>
+        </div>
+       <br>
+        <div class="d-flex flex-wrap gap-3">
+           
+                <h5 class="fw-bold mb-3 me-5">Social Network</h5>
+                <div class="d-flex gap-5">
+                    <a href="#" class="text-white text-decoration-none">Facebook</a>
+                    <a href="#" class="text-white text-decoration-none">Twitter</a>
+                    <a href="#" class="text-white text-decoration-none">Instagram</a>
+                    <a href="#" class="text-white text-decoration-none">Linkedin</a>
+                </div>
+            </div>
+        </div>
+       <br>
+       <br>
+     <div class="container">
+            <div class="row align-items-center">
+                <div class="col text-center">
+                    <span class="text-white">© 2019 Company, Inc.</span>
+                    <a href="#" class="text-white text-decoration-none">Privacy</a>
+                    <span class="text-white">·</span>
+                    <a href="#" class="text-white text-decoration-none">Terms</a>
+                </div>
+            </div>
+        </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
