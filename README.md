@@ -12,6 +12,8 @@ URL for Task 6 Part 1
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_06_WDD/2022-SE-02_Lab_Task_06_Part_1_WDD
 URL for Task 6 Part 2
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_06_WDD/2022-SE-02_Lab_Task_06_Part_2_WDD
+URL for Task 7 Katora Bootstrap
+https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_07_WDD
 URL for Task 8
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_08_WDD
 URL for Task 9
