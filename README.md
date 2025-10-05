@@ -21,3 +21,5 @@ https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Ta
 
 Lab Task 11 Create & Read Operations
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_11_WDD
+Lab Task 12 Update & Delete Operations
+https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_12_WDD
