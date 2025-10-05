@@ -24,3 +24,5 @@ URL for Task 11 Create & Read Operations
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_11_WDD
 URL for Task 12 Update & Delete Operations
 https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/2022-SE-02_Lab_Task_12_WDD
+URL for OEL
+https://raw.githack.com/Hashaam-Ahmed/2022-SE-02-WDD/tree/main/OEL_WDD_2022-SE-02_18
